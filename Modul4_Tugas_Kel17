@@ -32,8 +32,38 @@ string status (int umur){
       }
       else {
           return "Anda TIDAK BOLEH menaiki wahana!";
+
+string next(){
+	int lanjut;
+	if (lanjut==1){
+		return "Masukkan data usia teman Anda";
+	}
+	else if (lanjut == 0){
+		return "Tidak perlu memasukkan data usia teman Anda";
+	}
+	
+
+	
+}
+
+int main(){
+
+	cout << "********************************************" << endl;
+	cout << "|      Selamat Datang di Taman Sapali      |" << endl;
+	cout << "********************************************" << endl;
+	cout << endl;
+	
+	
+	Pengguna data1;
+	data1.user();
+	
+	int umur;
+	cout << "============================================" << endl;
+	cout << "           Masukkan usia Anda: ";
+	cin >> umur;
+	cout << status(umur) << endl;
+	cout << "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^" << endl;
+	cout << endl;
       }
 }
 
-
-      
