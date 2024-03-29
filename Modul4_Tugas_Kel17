@@ -1,0 +1,39 @@
+#include <iostream>
+using namespace std;
+
+class Pengguna{
+      public:
+      string nama;
+
+      void user (){
+      cout << "============================================" << endl;
+      cout << "       Masukkan nama Anda: "; 
+      cin >> nama; 
+
+      cout << "________________Halo" << nama << "!________________" << endl;
+      cout << endl;
+      if (nama == "Hasna" || nama == "Ainaya" || nama == "Syasa" || nama == "Josh"){
+          cout << "Anda merupakan member premium." << endl;
+		    	cout << "Biaya wahana sebesar Rp20.000 per orang" << endl;
+      }
+      else {
+          cout << "Anda merupakan non-member." << endl;
+		    	cout << "Biaya wahana sebesar Rp30.000 per orang" << endl
+      }
+
+      cout << "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^" << endl;
+  		cout << endl;
+	    }
+};
+
+string status (int umur){
+      if  (umur > 15){
+          return "Anda BOLEH menaiki wahana!";
+      }
+      else {
+          return "Anda TIDAK BOLEH menaiki wahana!";
+      }
+}
+
+
+      
