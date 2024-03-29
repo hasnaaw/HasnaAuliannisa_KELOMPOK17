@@ -10,20 +10,20 @@ class Pengguna{
       cout << "       Masukkan nama Anda: "; 
       cin >> nama; 
 
-      cout << "________________Halo" << nama << "!________________" << endl;
+      cout << "_________________Halo" << nama << "!_________________" << endl;
       cout << endl;
       if (nama == "Hasna" || nama == "Ainaya" || nama == "Syasa" || nama == "Josh"){
           cout << "Anda merupakan member premium." << endl;
-		    	cout << "Biaya wahana sebesar Rp20.000 per orang" << endl;
+	  cout << "Biaya wahana sebesar Rp20.000 per orang" << endl;
       }
       else {
           cout << "Anda merupakan non-member." << endl;
-		    	cout << "Biaya wahana sebesar Rp30.000 per orang" << endl
+	  cout << "Biaya wahana sebesar Rp30.000 per orang" << endl;
       }
 
       cout << "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^" << endl;
-  		cout << endl;
-	    }
+      cout << endl;
+      }
 };
 
 string status (int umur){
@@ -32,19 +32,21 @@ string status (int umur){
       }
       else {
           return "Anda TIDAK BOLEH menaiki wahana!";
+      }
+}
 
 string next(){
-	int lanjut;
-	if (lanjut==1){
-		return "Masukkan data usia teman Anda";
-	}
-	else if (lanjut == 0){
-		return "Tidak perlu memasukkan data usia teman Anda";
-	}
+      int lanjut;
+      if (lanjut==1){
+         return "Masukkan data usia teman Anda";
+      }
+      else if (lanjut == 0){
+	 return "Tidak perlu memasukkan data usia teman Anda";
+      }
 }
 
 int main(){
-
+	cout << "*********TUGAS MODUL 4 KELOMPOK 17**********"<< endl;
 	cout << "********************************************" << endl;
 	cout << "|      Selamat Datang di Taman Sapali      |" << endl;
 	cout << "********************************************" << endl;
@@ -62,7 +64,7 @@ int main(){
 	cout << "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^" << endl;
 	cout << endl;
 
-		int lanjut;
+	int lanjut;
 	cout << "============================================" << endl;
 	cout << "Apakah Anda lebih dari 1 orang?" << endl;
 	cout << "Ketik 1, jika iya. Ketik 0, jika tidak: "; cin >> lanjut;
