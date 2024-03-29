@@ -62,16 +62,20 @@ int main(){
 	cout << "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^" << endl;
 	cout << endl;
 
-	Pengguna data1;
-	data1.user();
-	
-	int umur;
+		int lanjut;
 	cout << "============================================" << endl;
-	cout << "           Masukkan usia Anda: ";
-	cin >> umur;
-	cout << status(umur) << endl;
+	cout << "Apakah Anda lebih dari 1 orang?" << endl;
+	cout << "Ketik 1, jika iya. Ketik 0, jika tidak: "; cin >> lanjut;
+	cout << next() << endl;
 	cout << "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^" << endl;
 	cout << endl;
+	
+	int jumlah;	
+	cout << "============================================" << endl;
+	cout << "Berapa total yang menaiki wahana? " << endl; 
+	cout << "(TIDAK TERMASUK ANDA)" << endl;
+	cout << "Ketik 0 jika Anda tidak membawa teman: ";cin >> jumlah;
+
       }
 }
 
