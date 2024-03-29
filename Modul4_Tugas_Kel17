@@ -61,6 +61,17 @@ int main(){
 	cout << status(umur) << endl;
 	cout << "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^" << endl;
 	cout << endl;
+
+	Pengguna data1;
+	data1.user();
+	
+	int umur;
+	cout << "============================================" << endl;
+	cout << "           Masukkan usia Anda: ";
+	cin >> umur;
+	cout << status(umur) << endl;
+	cout << "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^" << endl;
+	cout << endl;
       }
 }
 
