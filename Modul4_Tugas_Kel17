@@ -41,9 +41,6 @@ string next(){
 	else if (lanjut == 0){
 		return "Tidak perlu memasukkan data usia teman Anda";
 	}
-	
-
-	
 }
 
 int main(){
