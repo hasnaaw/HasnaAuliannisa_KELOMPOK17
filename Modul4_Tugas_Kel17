@@ -76,6 +76,17 @@ int main(){
 	cout << "(TIDAK TERMASUK ANDA)" << endl;
 	cout << "Ketik 0 jika Anda tidak membawa teman: ";cin >> jumlah;
 
-      }
-}
+	int i;
+	if (jumlah > 0){
+		for (i=1 ; i <= jumlah ; i++){
+		cout << "Masukkan usia teman Anda: ";
+		cin >> umur;
+		cout << "Teman " << status(umur) << endl;
+		}
+	}
+	
+	cout << "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^" << endl;
+	cout << endl;
+	cout << "SELESAI!" << endl;
 
+}
