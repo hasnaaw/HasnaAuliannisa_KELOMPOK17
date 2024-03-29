@@ -48,7 +48,6 @@ string next(){
 }
 
 int main(){
-	cout << "*********TUGAS MODUL 4 KELOMPOK 17**********"<< endl;
 
 	cout << "********************************************" << endl;
 	cout << "|      Selamat Datang di Taman Sapali      |" << endl;
